@@ -1,9 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T06:38:13.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" version="21.6.8" etag="FJfyjpPRNj_UpRsarbwJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T06:57:57.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="Fs895F7e64WdKED5jJgn" version="21.6.8" type="github">
   <diagram name="第 1 页" id="gc2zrJ_GFWwyp8cEoazd">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0mureFT7maAQ65eSAir9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-1" target="0mureFT7maAQ65eSAir9-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="270" />
+              <mxPoint x="485" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.591;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-1" target="0mureFT7maAQ65eSAir9-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="270" />
+              <mxPoint x="735" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-1" target="0mureFT7maAQ65eSAir9-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="270" />
+              <mxPoint x="955" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-1" target="0mureFT7maAQ65eSAir9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="270" />
+              <mxPoint x="245" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-1" value="«interface»&lt;br&gt;&lt;b&gt;ShiftController&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-2" target="0mureFT7maAQ65eSAir9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-2" value="«interface»&lt;br&gt;RosteringLineShiftService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-3" value="«interface»&lt;br&gt;RosteringLineShiftMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-8" value="RosteringLineShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-9" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0mureFT7maAQ65eSAir9-8">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-12" target="0mureFT7maAQ65eSAir9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-12" value="«interface»&lt;br&gt;RosteringLineRuleRelationService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-13" value="«interface»&lt;br&gt;RosteringLineRuleRelationMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-14" value="RosteringLineRuleRelation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-15" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0mureFT7maAQ65eSAir9-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-16" target="0mureFT7maAQ65eSAir9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-16" value="«interface»&lt;br&gt;RosteringLineRuleGroupService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-17" value="«interface»&lt;br&gt;RosteringLineRuleGroupMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-18" value="RosteringLineRuleGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-19" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0mureFT7maAQ65eSAir9-18">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mureFT7maAQ65eSAir9-20" target="0mureFT7maAQ65eSAir9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-20" value="«interface»&lt;br&gt;RosteringLineAlgGroupService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-21" value="«interface»&lt;br&gt;RosteringLineAlgGroupMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-22" value="RosteringLineAlgGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="460" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0mureFT7maAQ65eSAir9-23" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0mureFT7maAQ65eSAir9-22">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
