@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T01:48:32.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.8" etag="mv7RXjZXP-ljTJopQpNN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T03:15:15.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="3PdjDVNoqjXjjGAmOeoH" version="21.6.8" type="github">
   <diagram name="第 1 页" id="0w983nGgFEUMKOwyfK-d">
-    <mxGraphModel>
+    <mxGraphModel dx="1622" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A88NrS-8Mmrr3lIh5lx3-1" target="A88NrS-8Mmrr3lIh5lx3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-1" value="«interface»&lt;br&gt;TimeIntervalAutotaskController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A88NrS-8Mmrr3lIh5lx3-2" target="A88NrS-8Mmrr3lIh5lx3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-2" value="«interface»&lt;br&gt;TimeIntervalAutotaskService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-10" value="«interface»&lt;br&gt;TimeIntervalAutotaskMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-11" value="TimeIntervalAutotask" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-26" target="A88NrS-8Mmrr3lIh5lx3-28" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-26" value="«interface»&lt;br&gt;SchedulePlanAutotaskController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-28" target="A88NrS-8Mmrr3lIh5lx3-29" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-28" value="«interface»&lt;br&gt;SchedulePlanAutotaskService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-29" value="«interface»&lt;br&gt;SchedulePlanAutotaskMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-30" value="SchedulePlanAutotask" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-32" target="A88NrS-8Mmrr3lIh5lx3-34" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-32" value="«interface»&lt;br&gt;PassengerFlowTaskController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-34" target="A88NrS-8Mmrr3lIh5lx3-35" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-34" value="«interface»&lt;br&gt;PassengerFlowTaskService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-35" value="«interface»&lt;br&gt;PassengerFlowTaskMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-36" value="PassengerFlowTask" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-38" target="A88NrS-8Mmrr3lIh5lx3-40" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-38" value="«interface»&lt;br&gt;LineShiftController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-40" target="A88NrS-8Mmrr3lIh5lx3-41" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-40" value="«interface»&lt;br&gt;LineShiftService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-41" value="«interface»&lt;br&gt;LineShiftMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-42" value="LineShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-44" target="A88NrS-8Mmrr3lIh5lx3-46" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-44" value="«interface»&lt;br&gt;LineWorkController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-46" target="A88NrS-8Mmrr3lIh5lx3-47" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-46" value="«interface»&lt;br&gt;LineWorkService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-47" value="«interface»&lt;br&gt;LineWorkMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-48" value="LineWork" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-50" target="A88NrS-8Mmrr3lIh5lx3-52" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-50" value="«interface»&lt;br&gt;LineExtraConfigController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="A88NrS-8Mmrr3lIh5lx3-52" target="A88NrS-8Mmrr3lIh5lx3-53" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-52" value="«interface»&lt;br&gt;LineExtraConfigService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-53" value="«interface»&lt;br&gt;LineExtraConfigMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A88NrS-8Mmrr3lIh5lx3-54" value="LineExtraConfig" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="420" width="140" height="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
