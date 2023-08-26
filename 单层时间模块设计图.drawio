@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T03:15:59.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" version="21.6.8" etag="GnD4ka2_OPcZoVF7GycD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T03:38:01.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="RLY4RoC4HNReW5-cmCL3" version="21.6.8" type="github">
   <diagram name="第 1 页" id="y5dUCy3_ABz89nuh01LU">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Donbep2easwKohclI7Jl-1" value="«interface»&lt;br&gt;ForecastTimeParameterController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-2" value="«interface»&lt;br&gt;ForecastTimeParameterService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-3" value="«interface»&lt;br&gt;ForecastTimeParameterMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-4" value="ForecastTimeParameter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-5" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Donbep2easwKohclI7Jl-4">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-8" value="«interface»&lt;br&gt;ForecastTimeResultController" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="534" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-9" value="«interface»&lt;br&gt;ForecastTimeResultService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="534" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-10" value="«interface»&lt;br&gt;ForecastTimeResultMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="534" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-11" value="ForecastTimeResult" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="370" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Donbep2easwKohclI7Jl-12" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Donbep2easwKohclI7Jl-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
