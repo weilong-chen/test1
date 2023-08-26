@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T06:58:14.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" version="21.6.8" etag="nE3IIx2YfhvuviAEQC5B" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T07:01:19.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="y7BG8tzbVfdmzpalL_yo" version="21.6.8" type="github">
   <diagram name="第 1 页" id="IHnJ2mCHmTsgJI9gZ5m0">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-1" target="VDC88wxnnfBKnj3kIuwF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-1" target="VDC88wxnnfBKnj3kIuwF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="310" />
+              <mxPoint x="295" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-1" target="VDC88wxnnfBKnj3kIuwF-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="310" />
+              <mxPoint x="655" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-1" value="«interface»&lt;br&gt;&lt;b&gt;DayPlanController&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-2" target="VDC88wxnnfBKnj3kIuwF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-2" value="«interface»&lt;br&gt;DayPlanLineRelationService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-4" target="VDC88wxnnfBKnj3kIuwF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-4" value="«interface»&lt;br&gt;DayPlanPeakIntervalService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-5" target="VDC88wxnnfBKnj3kIuwF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-5" value="«interface»&lt;br&gt;TimeTableService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-6" target="VDC88wxnnfBKnj3kIuwF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-6" value="«interface»&lt;br&gt;DayPlanLineRelationMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-7" target="VDC88wxnnfBKnj3kIuwF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-7" value="«interface»&lt;br&gt;DayPlanPeakIntervalMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDC88wxnnfBKnj3kIuwF-8" target="VDC88wxnnfBKnj3kIuwF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-8" value="«interface»&lt;br&gt;TimeTableMapper" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-13" value="DayPlanLineRelation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="560" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-14" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VDC88wxnnfBKnj3kIuwF-13">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-17" value="DayPlanPeakInterval" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="559" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-18" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VDC88wxnnfBKnj3kIuwF-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-19" value="TimeTable" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="560" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VDC88wxnnfBKnj3kIuwF-20" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VDC88wxnnfBKnj3kIuwF-19">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
