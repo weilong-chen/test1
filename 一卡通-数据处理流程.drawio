@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T07:20:17.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" version="21.6.8" etag="g8XVTL-8u1wQ_QvzrTTv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T07:30:56.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="EwY3ELiT7SfRPkBHqHGm" version="21.6.8" type="github">
   <diagram name="第 1 页" id="PQJI8Tzz5l80kF8qEXZ0">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7O-uRz6RTiZqQBoVj40z-1" target="7O-uRz6RTiZqQBoVj40z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-1" value="第三发交易数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7O-uRz6RTiZqQBoVj40z-2" target="7O-uRz6RTiZqQBoVj40z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-2" value="业务数据库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7O-uRz6RTiZqQBoVj40z-4" target="7O-uRz6RTiZqQBoVj40z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-4" value="匹配数据基础信息（人、车、线、组织）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7O-uRz6RTiZqQBoVj40z-6" target="7O-uRz6RTiZqQBoVj40z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-6" value="输出到交易明细表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O-uRz6RTiZqQBoVj40z-8" value="查询交易明细表的数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
